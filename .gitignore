@@ -1,0 +1,18 @@
+﻿# Backups / temp
+_backup_*/
+_backup_src_*/
+*.bak
+*.tmp
+*.log
+~$*
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Build artifacts (reproducible from source)
+dist/NX_TIEUHOC_CaiDat.zip
+dist/NXTiengViet_data/backup/
+dist/NXTiengViet_data/caidat.ini
+dist/NXTiengViet_data/nhat_ky.txt
+
+# Keep dist/NXTiengViet.xlam + data templates (release)

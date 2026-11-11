@@ -1,0 +1,101 @@
+; ============================================================
+;  NX Tieu hoc (TT27) - THONG DIEP GIAO DIEN (UTF-8)
+;  Dung \n de xuong dong. Sua truc tiep file nay la doi chu.
+; ============================================================
+app.title = NX Tiểu học (TT27)
+
+; ---------------------------------------------------------- che do dien
+mode.title = CHỌN CHẾ ĐỘ ĐIỀN NHẬN XÉT (nhập 1, 2, 3 hoặc 4)
+mode.text = 1 = Theo cột Điểm / Xếp loại (đọc điểm từng học sinh)\n2 = Xoay vòng ngẫu nhiên Tốt & Hoàn thành (không cần cột điểm)\n3 = Tất cả đều mức TỐT (khen ngợi)\n4 = Tất cả đều mức HOÀN THÀNH
+mode.done = Đã thiết lập Chế độ điền {0}: {1}
+mode.desc1 = Theo cột Điểm / Xếp loại
+mode.desc2 = Xoay vòng Tốt & Hoàn thành (không cần cột điểm)
+mode.desc3 = Tất cả mức TỐT (không cần cột điểm)
+mode.desc4 = Tất cả mức HOÀN THÀNH (không cần cột điểm)
+mode.tag1 = CĐ1 (CỘT ĐIỂM)
+mode.tag2 = CĐ2 (XOAY VÒNG)
+mode.tag3 = CĐ3 (MỨC TỐT)
+mode.tag4 = CĐ4 (MỨC HT)
+
+; ---------------------------------------------------------- chon lop / dot / mon
+pick.class = CHỌN KHỐI LỚP (nhập số hoặc tên):\n{0}
+pick.classTitle = 1. CHỌN KHỐI LỚP
+pick.period = CHỌN ĐỢT ĐÁNH GIÁ (nhập 1-4):\n{0}
+pick.periodTitle = 2. CHỌN ĐỢT ĐÁNH GIÁ
+pick.subject = CHỌN MÔN HỌC (nhập số hoặc tên):\n{0}
+pick.subjectTitle = 3. CHỌN MÔN HỌC
+pick.done = Đã thiết lập thành công:\n - Lớp: {0}\n - Đợt: {1}\n - Môn: {2}\n\nFile mẫu sẽ dùng:\n{3}
+pick.noClass = Không tìm thấy thư mục lớp nào trong thư mục mẫu.
+pick.noSubject = Không có file mẫu cho lớp {0} - {1}.\nThư mục: {2}
+pick.invalidClass = Lớp không hợp lệ.
+pick.invalidPeriod = Đợt đánh giá không hợp lệ.
+
+; ---------------------------------------------------------- nhan dien tu sheet
+detect.title = Nhận diện từ trang tính
+detect.confirm = PHÁT HIỆN TỪ TRANG TÍNH ĐANG MỞ:\n\n - Trang tính nhận diện: {0} | {1} | MÔN {2}\n - Mẫu đang chọn: {3} | {4} | MÔN {5}\n\nChuyển sang mẫu nhận diện để điền không?
+detect.none = Không nhận diện được Lớp / Đợt / Môn từ trang tính đang mở.
+detect.done = Đã chuyển sang mẫu nhận diện:\n - Lớp: {0}\n - Đợt: {1}\n - Môn: {2}
+
+; ---------------------------------------------------------- chay dien
+run.noBook = Chưa mở file Excel nào.
+run.noSheet = Vui lòng mở file sổ điểm cần điền.
+run.noBank = Chưa đọc được mẫu nhận xét cho {0} - {1} - môn {2}.\nKiểm tra lại thư mục mẫu (nút "Mở thư mục Mẫu").
+run.noLayout = Không tìm thấy cột "Nhận xét" trong trang tính "{0}".\n{1}
+run.noStudent = Không tìm thấy học sinh nào hợp lệ để điền.\n(Cột điểm/xếp loại: {0} | Cột nhận xét: {1} | Hàng đầu: {2})
+run.confirm = Đã dò {0} học sinh.\n\n - Mẫu: {1} | {2} | MÔN {3}\n - Chế độ: {4}\n - Cột điền: {5}\n - Ô đã có chữ (bỏ qua): {6}\n\nThực hiện điền nhận xét ngay?
+run.done = Xong! Đã ghi {0} ô nhận xét (bỏ qua {1} ô đã có chữ).\n\n - Mẫu: {2} | {3} | MÔN {4}\n - Chế độ: {5}\n - Bản sao lưu: {6}
+run.error = Lỗi: {0}
+run.askScoreCol = CHƯA CHỌN CỘT ĐIỂM (CHẾ ĐỘ 1)\n\nNhập chữ cái cột (E, F, G) hoặc số cột (5, 6, 7):
+run.askScoreTitle = CHỌN CỘT ĐIỂM
+run.previewSheet = NX_XEMTRUOC
+
+; ---------------------------------------------------------- xem truoc
+preview.sheet = Trang tính
+preview.stt = STT
+preview.name = Họ và tên
+preview.level = Mức
+preview.subject = Môn
+preview.sentence = Câu nhận xét
+preview.target = Ô đích
+preview.row = hàng {0} / cột {1}
+
+; ---------------------------------------------------------- cau hinh cot & dong
+cfg.modeTitle = 1. CHẾ ĐỘ ĐIỀN
+cfg.modeText = 1 = Theo cột Điểm / Xếp loại\n2 = Xoay vòng ngẫu nhiên Tốt & Hoàn thành\n3 = Tất cả đều mức TỐT\n4 = Tất cả đều mức HOÀN THÀNH
+cfg.scoreTitle = 2. CỘT ĐIỂM / XẾP LOẠI
+cfg.scoreText = Nhập chữ cái cột (E, F, G) hoặc số cột (5, 6, 7).\nĐể trống = tự động dò.
+cfg.noteTitle = 3. CỘT NHẬN XÉT
+cfg.noteText = Nhập chữ cái cột (F, G, H) hoặc số cột (6, 7, 8).\nĐể trống = tự động dò.\nGhi auto = tự chọn theo đợt, last = cột cuối, first = cột đầu, all = mọi cột nhận xét.
+cfg.rowTitle = 4. HÀNG HỌC SINH ĐẦU TIÊN
+cfg.rowText = Nhập số hàng của học sinh đầu tiên (ví dụ 5).\nĐể trống = tự động dò.
+cfg.done = Đã lưu cấu hình:\n - Chế độ: {0}\n - Cột điểm: {1}\n - Cột nhận xét: {2}\n - Hàng đầu: {3}
+cfg.auto = tự động
+
+; ---------------------------------------------------------- hoan tac
+undo.none = Chưa có dữ liệu hoàn tác nào.
+undo.wrongBook = File hiện tại không khớp với file đã điền nhận xét gần nhất.
+undo.done = Đã hoàn tác {0} ô nhận xét.
+
+; ---------------------------------------------------------- thu muc mau
+tpl.notFound = Không tìm thấy file mẫu:\n{0}
+tpl.pickFolder = CHỌN THƯ MỤC CHỨA MẪU EXCEL (Mau_Nhan_Xet)
+tpl.folderSet = Đã thiết lập thư mục mẫu:\n{0}
+
+; ---------------------------------------------------------- lam moi
+data.reloaded = Đã nạp lại ngân hàng mẫu.\n\n - Đang chọn: {0} | {1} | {2}\n - Thư mục: {3}\n - Số nhóm câu: {4}
+
+; ---------------------------------------------------------- nhan tren Ribbon
+label.current = MẪU: {0}\n{1}\nMÔN {2}\n{3}
+
+; ---------------------------------------------------------- tro giup
+help.title = Trợ giúp - NX Tiểu học (TT27)
+help.text = HƯỚNG DẪN SỬ DỤNG ADD-IN NHẬN XÉT TIỂU HỌC (TT27)\n------------------------------------------------------------\n1. Mở sổ điểm Excel → bấm "Chọn Lớp & Môn" (Lớp → Đợt → Môn).\n2. Bấm "Xem trước" để rà lại.\n3. Bấm "Điền nhận xét" để ghi thật.\n4. Bấm "Hoàn tác (Undo)" nếu cần khôi phục.\n\n* Trang tính có "Lớp 3", "Giữa kỳ 1", "Toán"... add-in tự nhận diện.\n* Ô đã có chữ giữ nguyên (GhiDe=0); muốn ghi đè đặt GhiDe=1.
+
+; ---------------------------------------------------------- sheet thong tin trong .xlam
+info.sheet1 = NX Tiểu học - add-in điền nhận xét
+info.sheet2 = Phiên bản 3.0
+info.sheet3 = Dùng tab "NHẬN XÉT TIỂU HỌC (TT27)" trên Ribbon khi mở file sổ điểm.
+info.sheet4 = Dữ liệu: thư mục NXTiengViet_data nằm cạnh file .xlam.
+info.sheet5 = File này là add-in, không cần mở trực tiếp.
+
+info.text = NX Tiểu học (Chuẩn TT27) v{0}\n------------------------------------------------\nĐang chọn:\n - Lớp: {1}\n - Đợt: {2}\n - Môn: {3}\n\nThư mục mẫu: {4}\nThư mục dữ liệu: {5}\n\nDữ liệu mẫu: Mau_Nhan_Xet\<Lớp>\<Đợt>\<Môn>.xlsx (mỗi file 3 cột: TỐT / HOÀN THÀNH / CẦN CỐ GẮNG).

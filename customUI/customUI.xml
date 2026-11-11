@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="Ribbon_OnLoad">
+  <ribbon>
+    <tabs>
+      <tab id="tabNX" label="NHẬN XÉT TIỂU HỌC (TT27)" insertAfterMso="TabReview">
+        <group id="grpDien" label="Điền Nhận Xét">
+          <button id="btnDien"
+                  label="Điền nhận xét"
+                  size="large"
+                  imageMso="ReviewNewComment"
+                  onAction="DienNhanXet"
+                  screentip="Điền nhận xét tự động cho bảng điểm đang chọn"
+                  supertip="Tự động đọc cột điểm/xếp loại và điền câu nhận xét tương ứng cho cả lớp."/>
+          <button id="btnXem"
+                  label="Xem trước"
+                  size="large"
+                  imageMso="PrintPreviewAndPrint"
+                  onAction="XemTruocNhanXet"
+                  screentip="Xem trước nhận xét của 3 học sinh đầu"
+                  supertip="Liệt kê mẫu nhận xét của 3 học sinh đầu tiên để rà lại trước khi ghi thật."/>
+          <button id="btnUndo"
+                  label="Hoàn tác (Undo)"
+                  size="large"
+                  imageMso="Undo"
+                  onAction="HoanTacNhanXet"
+                  screentip="Khôi phục lại dữ liệu cũ trước khi điền"
+                  supertip="Khôi phục nguyên trạng cột nhận xét nếu chẳng may bấm nhầm."/>
+          <separator id="sep1" />
+          <button id="btnSelectClassSubject"
+                  label="Chọn Lớp &amp; Môn"
+                  size="large"
+                  imageMso="Open"
+                  onAction="ChonLopVaMon"
+                  screentip="Chọn Lớp, Đợt đánh giá và Môn học cần điền"
+                  supertip="Chọn đúng Lớp (1-5), Đợt đánh giá (Giữa kỳ 1 / Cuối kỳ 1 / Giữa kỳ 2 / Cuối kỳ 2) và Môn học."/>
+          <button id="btnNhanDien"
+                  label="Nhận diện từ sheet"
+                  size="normal"
+                  imageMso="Zoom"
+                  onAction="NXNhanDienTuSheet"
+                  screentip="Tự nhận diện Lớp / Đợt / Môn từ sheet đang mở"
+                  supertip="Đọc tên sheet và phần tiêu đề để tự chọn đúng Lớp, Đợt đánh giá và Môn học."/>
+          <button id="btnFillMode"
+                  label="Chế độ điền"
+                  size="normal"
+                  imageMso="Settings"
+                  onAction="ChonCheDoDien"
+                  screentip="Chọn Chế Độ Điền Nhận Xét (1-4)"
+                  supertip="Cho phép chọn: 1. Theo Cột Điểm | 2. Xoay Vòng Ngẫu Nhiên | 3. Tất Cả Mức Tốt | 4. Tất Cả Mức Hoàn Thành."/>
+          <button id="btnConfigCols"
+                  label="Chọn cột &amp; dòng"
+                  size="normal"
+                  imageMso="InsertTable"
+                  onAction="CauHinhCotDiem"
+                  screentip="Tùy chọn Cột Điểm, Cột Nhận Xét và Hàng bắt đầu"
+                  supertip="Cho phép chỉ định thủ công Cột Điểm, Cột Nhận Xét và Hàng học sinh đầu tiên."/>
+          <separator id="sep2" />
+          <labelControl id="lblActiveTemplate" getLabel="GetActiveTemplateLabel" />
+        </group>
+
+        <group id="grpData" label="Mẫu Excel (.xlsx)">
+          <button id="btnMoMauMon"
+                  label="Mở mẫu môn hiện tại"
+                  size="large"
+                  imageMso="MicrosoftExcel"
+                  onAction="MoFileMauMon"
+                  screentip="Mở file Excel mẫu của môn đang chọn"
+                  supertip="Mở trực tiếp file mẫu Excel (.xlsx) tương ứng để giáo viên thêm/sửa câu nhận xét."/>
+          <button id="btnFolderMau"
+                  label="Mở thư mục Mẫu"
+                  size="large"
+                  imageMso="FileSaveAs"
+                  onAction="MoThuMucMauExcel"
+                  screentip="Mở thư mục lưu trữ mẫu nhận xét hiện tại"/>
+          <button id="btnChonFolder"
+                  label="Chọn thư mục Mẫu"
+                  size="large"
+                  imageMso="OpenFolder"
+                  onAction="ChonThuMucMauCustom"
+                  screentip="Tùy chọn đường dẫn thư mục Mẫu Excel"
+                  supertip="Cho phép giáo viên tự chọn vị trí thư mục Mẫu Excel ở bất kỳ đâu (Ổ D, Ổ E, Desktop...)."/>
+          <button id="btnReload"
+                  label="Nạp lại Mẫu"
+                  size="large"
+                  imageMso="RefreshAll"
+                  onAction="LamMoiNganHang"
+                  screentip="Làm mới bộ nhớ câu nhận xét"
+                  supertip="Sau khi sửa file mẫu Excel, bấm nút này để áp dụng câu mới ngay."/>
+        </group>
+
+        <group id="grpHelp" label="Trợ Giúp">
+          <button id="btnHelp"
+                  label="Hướng dẫn"
+                  size="large"
+                  imageMso="Help"
+                  onAction="HuongDanAddin"
+                  screentip="Xem hướng dẫn sử dụng tiện ích"/>
+          <button id="btnInfo"
+                  label="Thông tin"
+                  size="large"
+                  imageMso="About"
+                  onAction="ThongTinAddin"
+                  screentip="Thông tin phiên bản Add-in"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

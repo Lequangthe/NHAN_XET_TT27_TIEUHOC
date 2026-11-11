@@ -1,0 +1,264 @@
+; ============================================================
+;  NGAN HANG CAU NHAN XET - NX Tieu hoc
+;  Dinh dang:  [MA_MON|MUC]   roi moi dong la 1 cau
+;  MUC:  T = Hoan thanh tot | H = Hoan thanh | C = Chua hoan thanh
+;  MA_MON: TOAN, TV, TNXH, DAODUC, HDTN, AMNHAC, MYTHUAT,
+;          GDTC, TINHOC, CONGNGHE, TIENGANH, KHOAHOC, LSDL, CHUNG
+;  Môn nào thiếu mức nào thì tự lấy của [CHUNG|mức đó].
+;  Dòng bắt đầu bằng ; hoặc # là ghi chú, sẽ bị bỏ qua.
+;  Sửa trực tiếp file này bằng Notepad, lưu UTF-8.
+; ============================================================
+
+[CHUNG|T]
+Hoàn thành xuất sắc các nhiệm vụ học tập, chủ động tìm tòi và biết vận dụng kiến thức vào thực tế.
+Tiếp thu bài nhanh, ghi nhớ tốt, thường xuyên giơ tay phát biểu và có ý kiến hay.
+Luôn hoàn thành đầy đủ bài tập trước khi đến lớp, trình bày sạch sẽ và khoa học.
+Tự giác trong học tập, biết sắp xếp thời gian hợp lý để hoàn thành tốt các nhiệm vụ.
+Tích cực tham gia các hoạt động của lớp, biết phối hợp và giúp đỡ bạn bè cùng tiến bộ.
+Có tinh thần tự học, chủ động mở rộng kiến thức ngoài sách giáo khoa.
+Mạnh dạn chia sẻ ý kiến, trình bày lưu loát và tự tin trước tập thể.
+Cẩn thận, chu đáo, biết tự kiểm tra lại kết quả trước khi nộp bài.
+Có tiến bộ rõ rệt so với đầu năm, kết quả học tập ổn định và đáng khen.
+Biết lắng nghe, hợp tác tốt với bạn trong các hoạt động nhóm.
+
+[CHUNG|H]
+Hoàn thành được các bài tập trong giờ, trình bày tương đối rõ ràng. Cần cẩn thận hơn khi kiểm tra lại bài.
+Hiểu bài và làm được bài tập cơ bản, cần luyện thêm các bài vận dụng để thành thạo hơn.
+Có ý thức học tập, chú ý nghe giảng nhưng còn ít phát biểu. Cần mạnh dạn hơn trước lớp.
+Hoàn thành nhiệm vụ học tập ở mức tốt, cần rèn thêm tính tự giác khi làm bài ở nhà.
+Nắm được kiến thức trọng tâm, cần luyện tập thêm để làm bài nhanh và chính xác hơn.
+Tham gia đầy đủ các hoạt động, cần chủ động hơn trong việc trao đổi với thầy cô và bạn bè.
+Có tiến bộ so với đầu năm, cần duy trì thói quen học bài và chuẩn bị bài trước khi đến lớp.
+Làm bài cẩn thận, tuy đôi lúc còn sai sót nhỏ. Cần đọc kỹ đề trước khi làm.
+
+[CHUNG|C]
+Chưa hoàn thành được các bài tập cơ bản trong giờ. Cần được thầy cô và gia đình hỗ trợ thêm.
+Còn lúng túng khi làm bài, cần luyện tập lại kiến thức đã học mỗi ngày.
+Có cố gắng nhưng chưa theo kịp yêu cầu của bài học. Cần rèn thêm kỹ năng cơ bản.
+Chưa tập trung trong giờ học, cần được nhắc nhở và hỗ trợ để hoàn thành nhiệm vụ.
+
+[TOAN|T]
+Tính toán nhanh và chính xác, biết đặt tính đúng và trình bày bài giải rõ ràng.
+Nắm chắc bảng cộng, trừ, nhân, chia; vận dụng linh hoạt vào giải toán có lời văn.
+Phân tích đề tốt, chọn đúng phép tính và biết kiểm tra lại kết quả trước khi nộp.
+Tư duy logic, biết tìm nhiều cách giải cho một bài toán và giải thích rõ ràng.
+Học thuộc bảng nhân, chia thành thạo; tính nhẩm nhanh và ít sai sót.
+Giải được các bài toán có lời văn, trình bày đủ lời giải và đáp số.
+Chủ động giơ tay chữa bài, tự tin nêu cách làm cho các bạn nghe.
+Hoàn thành tốt các bài tập trong sách, sẵn sàng thử sức với bài toán nâng cao.
+
+[TOAN|H]
+Làm được các phép tính cơ bản, cần rèn thêm kỹ năng tính nhẩm để làm bài nhanh hơn.
+Giải được bài toán có một phép tính; bài toán hai phép tính còn cần gợi ý. Cần luyện thêm ở nhà.
+Đặt tính đúng nhưng đôi khi còn nhầm khi có nhớ. Cần kiểm tra lại bài trước khi nộp.
+Nắm được cách giải nhưng trình bày còn sơ sài. Cần viết đầy đủ lời giải và đáp số.
+Đã thuộc bảng nhân 2, 3, 4, 5; cần học tiếp bảng nhân 6, 7, 8, 9.
+Hoàn thành bài tập trong giờ, cần cẩn thận hơn khi thực hiện phép chia có dư.
+
+[TOAN|C]
+Còn lúng túng khi thực hiện phép cộng, trừ có nhớ và chưa thuộc bảng nhân. Cần ôn lại hằng ngày.
+Chưa nắm được cách giải bài toán có lời văn. Cần được hướng dẫn từng bước.
+Tính toán còn sai nhiều, cần luyện tập thêm các dạng bài cơ bản.
+
+[TV|T]
+Đọc to, rõ ràng, lưu loát và biết ngắt nghỉ đúng dấu câu.
+Đọc diễn cảm, biết thể hiện cảm xúc của nhân vật trong bài đọc.
+Viết chính tả đúng, chữ viết đều và đẹp, trình bày sạch sẽ.
+Viết được đoạn văn đủ ý, biết dùng từ gợi tả và hình ảnh so sánh sinh động.
+Trả lời tốt các câu hỏi đọc hiểu, biết tìm chi tiết và nêu ý chính của bài.
+Vốn từ phong phú, đặt câu đúng ngữ pháp và sử dụng dấu câu chính xác.
+Kể chuyện tự nhiên, có giọng điệu và biết kết hợp cử chỉ khi trình bày.
+Chăm đọc sách, biết ghi chép những từ ngữ hay và vận dụng vào bài viết.
+
+[TV|H]
+Đọc được toàn bộ bài trong sách, tốc độ tương đối ổn. Cần luyện đọc diễn cảm hơn.
+Viết chính tả đúng các từ quen thuộc, còn sai một vài tiếng có vần khó. Cần luyện viết thêm.
+Trả lời được câu hỏi dễ, câu khó còn cần gợi ý. Cần đọc bài nhiều lần trước khi trả lời.
+Viết được đoạn văn theo gợi ý, cần dùng thêm từ ngữ gợi tả để bài viết sinh động.
+Chữ viết rõ nhưng chưa đều, cần tiếp tục rèn nét chữ và giữ vở sạch.
+Kể được nội dung câu chuyện, cần mạnh dạn hơn khi kể trước lớp.
+
+[TV|C]
+Đọc còn chậm, đánh vần được các từ đơn giản nhưng gặp khó khăn với câu dài. Cần luyện đọc mỗi tối.
+Viết còn sai nhiều lỗi chính tả, chữ chưa rõ nét. Cần rèn viết thường xuyên.
+Chưa diễn đạt được ý thành câu hoàn chỉnh. Cần được hướng dẫn cách đặt câu.
+
+[TNXH|T]
+Quan sát tốt, mô tả được đặc điểm của cây cối, con vật và các hiện tượng tự nhiên.
+Nắm chắc nội dung bài học, biết liên hệ kiến thức với cuộc sống hằng ngày.
+Hứng thú tìm hiểu tự nhiên, thường xuyên đặt câu hỏi và chia sẻ hiểu biết với bạn.
+Biết chăm sóc và bảo vệ cây xanh, vật nuôi; có ý thức giữ gìn môi trường.
+Nhận biết và phân loại được các nhóm thực vật, động vật theo đặc điểm.
+Hiểu và thực hành tốt các kỹ năng an toàn, biết phòng tránh nguy hiểm.
+
+[TNXH|H]
+Nhận biết được một số cây và con vật quen thuộc. Cần rèn thêm kỹ năng so sánh, phân loại.
+Nắm được nội dung chính của bài, cần chú ý hơn khi quan sát tranh và ghi nhớ chi tiết.
+Hăng hái tham gia hoạt động nhóm, cần mạnh dạn hơn khi trình bày kết quả.
+Biết một số kiến thức về sức khỏe và an toàn, cần vận dụng thường xuyên vào sinh hoạt hằng ngày.
+
+[TNXH|C]
+Còn nhầm lẫn tên gọi và đặc điểm của cây, con vật. Cần được hỗ trợ khi quan sát và ghi nhớ.
+Chưa nắm được nội dung bài học, cần xem lại tranh ảnh và nội dung sách giáo khoa.
+
+[DAODUC|T]
+Lễ phép với thầy cô, hòa nhã với bạn bè, biết nói lời cảm ơn và xin lỗi đúng lúc.
+Trung thực trong học tập và sinh hoạt, dũng cảm nhận lỗi khi mắc khuyết điểm.
+Biết quan tâm, chia sẻ và giúp đỡ bạn bè, nhất là các bạn gặp khó khăn.
+Có ý thức giữ gìn tài sản chung, bảo vệ cây xanh và giữ vệ sinh lớp học.
+Tự giác thực hiện nội quy trường lớp, nhắc nhở bạn cùng thực hiện.
+Kính trọng người lớn tuổi, biết nhường nhịn và chăm sóc em nhỏ.
+Sống chan hòa, biết lắng nghe và tôn trọng ý kiến của người khác.
+
+[DAODUC|H]
+Ngoan, lễ phép với thầy cô. Cần mạnh dạn hơn khi chia sẻ ý kiến của mình.
+Biết giữ trật tự trong giờ học, cần tiếp tục rèn thói quen xếp hàng ngay ngắn.
+Có ý thức giữ vệ sinh cá nhân, cần chú ý hơn đến việc giữ gìn sách vở.
+Đã có tiến bộ trong việc nhường nhịn bạn, cần tiếp tục rèn phẩm chất này.
+Tham gia các hoạt động chung của lớp, cần chủ động hơn trong việc giúp đỡ bạn.
+
+[DAODUC|C]
+Còn mất trật tự trong giờ học và chưa biết nhường nhịn bạn. Cần được nhắc nhở thường xuyên.
+Chưa tự giác thực hiện nội quy, cần sự phối hợp giữa gia đình và nhà trường.
+
+[HDTN|T]
+Tự tin tham gia các hoạt động tập thể, biết tổ chức và điều hành nhóm hiệu quả.
+Chủ động đề xuất ý tưởng mới, sáng tạo trong các hoạt động trải nghiệm.
+Biết hợp tác, chia sẻ trách nhiệm và hoàn thành tốt phần việc được giao.
+Có kỹ năng tự phục vụ tốt, biết sắp xếp công việc cá nhân gọn gàng.
+Tích cực tham gia hoạt động cộng đồng, biết quan tâm đến mọi người xung quanh.
+Mạnh dạn trình bày trước tập thể, biết lắng nghe và tiếp thu góp ý.
+Thể hiện tốt tinh thần trách nhiệm, là tấm gương cho các bạn trong lớp.
+
+[HDTN|H]
+Tham gia được các hoạt động của lớp, cần mạnh dạn và chủ động hơn khi phát biểu.
+Hoàn thành phần việc được giao, cần phối hợp tốt hơn với các bạn trong nhóm.
+Có tiến bộ về kỹ năng tự phục vụ, cần rèn thêm tính ngăn nắp và gọn gàng.
+Hứng thú với hoạt động tập thể, cần chú ý lắng nghe hướng dẫn trước khi thực hiện.
+
+[HDTN|C]
+Còn rụt rè, chưa tham gia các hoạt động tập thể. Cần được khích lệ và giao việc phù hợp.
+Chưa hoàn thành phần việc được giao, cần được nhắc nhở và hỗ trợ.
+
+[AMNHAC|T]
+Hát đúng giai điệu, đúng nhịp và biết thể hiện tình cảm qua bài hát.
+Biết kết hợp vận động phụ họa, biểu diễn tự tin trước lớp.
+Cảm nhận tốt về cao độ, trường độ và phân biệt được các loại nhạc cụ.
+Hát thuộc lời, phát âm rõ ràng và biết giữ nhịp khi hát tập thể.
+Sáng tạo trong các hoạt động âm nhạc, biết gõ đệm theo phách chính xác.
+Chăm chú nghe và nhận xét được cái hay, cái đẹp của bài hát.
+
+[AMNHAC|H]
+Hát được bài hát đã học, cần chú ý giữ đúng nhịp và phát âm rõ hơn.
+Tham gia hát tập thể đều, cần tự tin hơn khi biểu diễn trước lớp.
+Biết gõ đệm theo bài hát, cần luyện thêm để gõ đúng phách.
+
+[AMNHAC|C]
+Chưa thuộc lời bài hát, còn hát sai nhịp. Cần luyện hát thêm ở nhà.
+
+[MYTHUAT|T]
+Vẽ được hình sinh động, biết phối hợp màu sắc hài hòa trong bài vẽ.
+Khéo tay, biết xé dán, cắt dán và tạo được sản phẩm đẹp, sáng tạo.
+Nặn được hình khối cân đối, có bố cục rõ ràng và thể hiện được ý tưởng.
+Quan sát tốt, biết đưa chi tiết thực tế vào bài vẽ của mình.
+Biết giữ gìn sản phẩm, sắp xếp đồ dùng gọn gàng sau khi học.
+Có khiếu thẩm mỹ, nhận xét được vẻ đẹp của sản phẩm mỹ thuật.
+
+[MYTHUAT|H]
+Hoàn thành được sản phẩm theo yêu cầu, cần chú ý hơn đến bố cục và đường nét.
+Vẽ được hình nhưng còn đơn điệu, cần phối hợp thêm màu sắc để bài sinh động.
+Cắt dán tương đối khéo, cần cẩn thận hơn để sản phẩm sạch và đẹp.
+
+[MYTHUAT|C]
+Chưa hoàn thành được sản phẩm theo yêu cầu. Cần được hướng dẫn cách sắp xếp bố cục.
+
+[GDTC|T]
+Thực hiện đúng và đẹp các động tác thể dục, tư thế chuẩn và dứt khoát.
+Nhanh nhẹn, khéo léo và tích cực tham gia các trò chơi vận động.
+Có thể lực tốt, hoàn thành tốt các bài tập chạy, nhảy, ném bóng.
+Nắm vững luật chơi, biết phối hợp đồng đội trong các hoạt động tập thể.
+Tự giác tập luyện, biết khởi động và giữ an toàn khi vận động.
+Tinh thần thể thao tốt, biết động viên và giúp đỡ bạn cùng chơi.
+
+[GDTC|H]
+Thực hiện được các động tác cơ bản, cần luyện thêm để động tác chính xác và đẹp hơn.
+Tham gia đầy đủ các giờ học, cần nhanh nhẹn và mạnh dạn hơn trong trò chơi.
+Có cố gắng trong luyện tập, cần chú ý giữ an toàn khi vận động.
+
+[GDTC|C]
+Chưa thực hiện đúng một số động tác cơ bản, cần luyện tập thêm và chú ý an toàn.
+
+[TINHOC|T]
+Sử dụng chuột và bàn phím thành thạo, thao tác nhanh và chính xác.
+Nắm được cách mở, lưu và quản lý tệp tin, biết sắp xếp thư mục gọn gàng.
+Biết gõ bàn phím đúng quy cách, tốc độ gõ nhanh và ít lỗi.
+Vẽ được hình bằng phần mềm, biết sử dụng công cụ và phối hợp màu sắc.
+Hiểu và thực hiện tốt các quy tắc an toàn khi sử dụng máy tính.
+Sáng tạo trong các bài thực hành, biết vận dụng kiến thức vào sản phẩm số.
+
+[TINHOC|H]
+Thực hiện được các thao tác cơ bản trên máy tính, cần luyện thêm để thao tác nhanh hơn.
+Biết gõ phím nhưng còn chậm, cần luyện tập thường xuyên để tăng tốc độ.
+Hoàn thành bài thực hành, cần chú ý lắng nghe hướng dẫn trước khi thao tác.
+
+[TINHOC|C]
+Còn lúng túng khi sử dụng chuột và bàn phím. Cần được hướng dẫn thêm từng thao tác.
+
+[CONGNGHE|T]
+Nhận biết và sử dụng đúng các đồ dùng học tập, biết giữ gìn và bảo quản.
+Khéo tay, thực hiện tốt các thao tác cắt, gấp, dán trong bài thực hành.
+Hiểu được công dụng của sản phẩm, biết lựa chọn vật liệu phù hợp.
+Sáng tạo trong việc làm sản phẩm, biết tận dụng vật liệu tái chế.
+Có ý thức an toàn khi sử dụng công cụ, biết dọn dẹp sau khi làm.
+
+[CONGNGHE|H]
+Làm được sản phẩm theo mẫu, cần chú ý hơn đến độ chính xác khi cắt, gấp.
+Thực hiện được các thao tác cơ bản, cần cẩn thận và kiên nhẫn hơn khi làm sản phẩm.
+
+[CONGNGHE|C]
+Chưa hoàn thành được sản phẩm theo yêu cầu, cần được hướng dẫn thêm khi thực hành.
+
+[TIENGANH|T]
+Phát âm chuẩn, nghe hiểu tốt và tự tin giao tiếp bằng tiếng Anh.
+Nhớ nhiều từ vựng, biết vận dụng mẫu câu đã học vào tình huống thực tế.
+Đọc hiểu tốt các đoạn văn ngắn, trả lời đúng các câu hỏi trong bài.
+Viết đúng chính tả các từ đã học, đặt được câu đơn giản chính xác.
+Hăng hái tham gia các hoạt động nói, hát và đóng vai bằng tiếng Anh.
+Có phản xạ tốt, biết sử dụng tiếng Anh trong các tình huống quen thuộc.
+
+[TIENGANH|H]
+Nhớ được các từ vựng cơ bản, cần luyện phát âm và mẫu câu thường xuyên hơn.
+Nghe hiểu được các câu đơn giản, cần mạnh dạn hơn khi nói trước lớp.
+Viết được các từ đã học, cần chú ý chính tả và trật tự từ trong câu.
+
+[TIENGANH|C]
+Còn khó khăn khi nghe và phát âm. Cần luyện nghe và đọc to mỗi ngày.
+
+[KHOAHOC|T]
+Hứng thú khám phá khoa học, biết đặt câu hỏi và tìm cách giải đáp.
+Nắm chắc kiến thức về con người, thực vật, động vật và các hiện tượng tự nhiên.
+Biết làm thí nghiệm đơn giản, ghi chép và rút ra kết luận rõ ràng.
+Vận dụng tốt kiến thức khoa học vào bảo vệ sức khỏe và môi trường.
+Quan sát tinh tế, biết liên hệ bài học với thực tế xung quanh.
+
+[KHOAHOC|H]
+Nắm được nội dung chính của bài, cần chú ý hơn khi phân tích và giải thích hiện tượng.
+Tham gia tốt các hoạt động quan sát, cần mạnh dạn hơn khi nêu kết luận.
+
+[KHOAHOC|C]
+Chưa nắm được kiến thức trọng tâm. Cần xem lại bài và tìm hiểu thêm qua tranh ảnh.
+
+[LSDL|T]
+Nắm vững các mốc thời gian và sự kiện lịch sử, kể lại rõ ràng, có trình tự.
+Đọc được bản đồ, xác định đúng vị trí địa lí và các đặc điểm tự nhiên.
+Hứng thú tìm hiểu lịch sử địa phương, biết liên hệ bài học với thực tế.
+Sưu tầm tốt tranh ảnh, tư liệu và trình bày sinh động trước lớp.
+Biết so sánh các vùng miền, nhận xét được đặc điểm khí hậu, dân cư.
+
+[LSDL|H]
+Nhớ được các sự kiện chính, cần luyện thêm cách ghi nhớ mốc thời gian và trình bày theo trình tự.
+Xác định được một số đối tượng trên bản đồ, cần chú ý hơn về phương hướng và chú giải.
+Có hứng thú với bài học, cần chủ động chia sẻ hiểu biết với bạn bè.
+
+[LSDL|C]
+Chưa nhớ được các sự kiện lịch sử và địa lí cơ bản. Cần xem lại bài và trao đổi thêm với thầy cô.
